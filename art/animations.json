@@ -1,0 +1,551 @@
+[
+  {
+    "name": "walk",
+    "frames": 6,
+    "ms": 110,
+    "loop": true,
+    "anchors": [
+      [
+        25,
+        9,
+        true
+      ],
+      [
+        25,
+        10,
+        true
+      ],
+      [
+        25,
+        10,
+        true
+      ],
+      [
+        25,
+        9,
+        true
+      ],
+      [
+        25,
+        10,
+        true
+      ],
+      [
+        25,
+        10,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "sit",
+    "frames": 1,
+    "ms": 1000,
+    "loop": true,
+    "anchors": [
+      [
+        21,
+        7,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "sit_tail",
+    "frames": 4,
+    "ms": 150,
+    "loop": false,
+    "anchors": [
+      [
+        21,
+        7,
+        true
+      ],
+      [
+        21,
+        7,
+        true
+      ],
+      [
+        21,
+        7,
+        true
+      ],
+      [
+        21,
+        7,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "sleep",
+    "frames": 2,
+    "ms": 900,
+    "loop": true,
+    "anchors": [
+      [
+        23,
+        20,
+        true
+      ],
+      [
+        23,
+        20,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "wake",
+    "frames": 3,
+    "ms": 260,
+    "loop": false,
+    "anchors": [
+      [
+        23,
+        16,
+        true
+      ],
+      [
+        22,
+        14,
+        true
+      ],
+      [
+        21,
+        7,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "loaf",
+    "frames": 1,
+    "ms": 1000,
+    "loop": true,
+    "anchors": [
+      [
+        22,
+        14,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "crouch",
+    "frames": 2,
+    "ms": 150,
+    "loop": true,
+    "anchors": [
+      [
+        26,
+        19,
+        true
+      ],
+      [
+        26,
+        19,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "pounce",
+    "frames": 3,
+    "ms": 130,
+    "loop": false,
+    "anchors": [
+      [
+        24,
+        8,
+        true
+      ],
+      [
+        25,
+        8,
+        true
+      ],
+      [
+        26,
+        19,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "happy",
+    "frames": 2,
+    "ms": 350,
+    "loop": true,
+    "anchors": [
+      [
+        21,
+        7,
+        true
+      ],
+      [
+        21,
+        7,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "meow",
+    "frames": 3,
+    "ms": 160,
+    "loop": false,
+    "anchors": [
+      [
+        21,
+        7,
+        true
+      ],
+      [
+        21,
+        7,
+        true
+      ],
+      [
+        21,
+        7,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "roll",
+    "frames": 2,
+    "ms": 220,
+    "loop": false,
+    "anchors": [
+      [
+        24,
+        20,
+        true
+      ],
+      [
+        24,
+        28,
+        false
+      ]
+    ]
+  },
+  {
+    "name": "belly",
+    "frames": 2,
+    "ms": 320,
+    "loop": true,
+    "anchors": [
+      [
+        24,
+        28,
+        false
+      ],
+      [
+        24,
+        28,
+        false
+      ]
+    ]
+  },
+  {
+    "name": "dangle",
+    "frames": 2,
+    "ms": 260,
+    "loop": true,
+    "anchors": [
+      [
+        16,
+        3,
+        true
+      ],
+      [
+        16,
+        3,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "heart",
+    "frames": 2,
+    "ms": 250,
+    "loop": true,
+    "anchors": [
+      null,
+      null
+    ]
+  },
+  {
+    "name": "alert",
+    "frames": 2,
+    "ms": 200,
+    "loop": true,
+    "anchors": [
+      null,
+      null
+    ]
+  },
+  {
+    "name": "stretch",
+    "frames": 5,
+    "ms": 230,
+    "loop": false,
+    "anchors": [
+      [
+        24,
+        14,
+        true
+      ],
+      [
+        25,
+        19,
+        true
+      ],
+      [
+        25,
+        19,
+        true
+      ],
+      [
+        25,
+        19,
+        true
+      ],
+      [
+        24,
+        14,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "yawn",
+    "frames": 4,
+    "ms": 200,
+    "loop": false,
+    "anchors": [
+      [
+        21,
+        6,
+        true
+      ],
+      [
+        21,
+        6,
+        true
+      ],
+      [
+        21,
+        6,
+        true
+      ],
+      [
+        21,
+        6,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "groom",
+    "frames": 4,
+    "ms": 240,
+    "loop": true,
+    "anchors": [
+      [
+        22,
+        8,
+        true
+      ],
+      [
+        22,
+        8,
+        true
+      ],
+      [
+        22,
+        8,
+        true
+      ],
+      [
+        22,
+        8,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "scratch",
+    "frames": 2,
+    "ms": 90,
+    "loop": true,
+    "anchors": [
+      [
+        22,
+        8,
+        true
+      ],
+      [
+        22,
+        8,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "knead",
+    "frames": 2,
+    "ms": 260,
+    "loop": true,
+    "anchors": [
+      [
+        21,
+        7,
+        true
+      ],
+      [
+        21,
+        7,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "zzz",
+    "frames": 2,
+    "ms": 600,
+    "loop": true,
+    "anchors": [
+      null,
+      null
+    ]
+  },
+  {
+    "name": "bat",
+    "frames": 3,
+    "ms": 110,
+    "loop": false,
+    "anchors": [
+      [
+        22,
+        8,
+        true
+      ],
+      [
+        22,
+        8,
+        true
+      ],
+      [
+        22,
+        8,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "butterfly",
+    "frames": 2,
+    "ms": 120,
+    "loop": true,
+    "anchors": [
+      null,
+      null
+    ]
+  },
+  {
+    "name": "yarn",
+    "frames": 2,
+    "ms": 1000,
+    "loop": true,
+    "anchors": [
+      null,
+      null
+    ]
+  },
+  {
+    "name": "gift",
+    "frames": 1,
+    "ms": 1000,
+    "loop": true,
+    "anchors": [
+      null
+    ]
+  },
+  {
+    "name": "dance",
+    "frames": 4,
+    "ms": 300,
+    "loop": true,
+    "anchors": [
+      [
+        20,
+        8,
+        true
+      ],
+      [
+        21,
+        7,
+        true
+      ],
+      [
+        22,
+        8,
+        true
+      ],
+      [
+        21,
+        7,
+        true
+      ]
+    ]
+  },
+  {
+    "name": "note",
+    "frames": 1,
+    "ms": 400,
+    "loop": true,
+    "anchors": [
+      null
+    ]
+  },
+  {
+    "name": "fish",
+    "frames": 1,
+    "ms": 1000,
+    "loop": true,
+    "anchors": [
+      null
+    ]
+  },
+  {
+    "name": "hat_witch",
+    "frames": 1,
+    "ms": 1000,
+    "loop": true,
+    "anchors": [
+      null
+    ]
+  },
+  {
+    "name": "hat_santa",
+    "frames": 1,
+    "ms": 1000,
+    "loop": true,
+    "anchors": [
+      null
+    ]
+  },
+  {
+    "name": "hat_party",
+    "frames": 1,
+    "ms": 1000,
+    "loop": true,
+    "anchors": [
+      null
+    ]
+  }
+]
