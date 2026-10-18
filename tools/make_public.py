@@ -58,8 +58,7 @@ def main():
     s = replace_once(s, '- birthday: "2026-10-17"', '- birthday: ""')
     s = replace_once(s, "    .birthday = cat::DaysFromCivil(2026, 10, 17),", "    .birthday = 0,")
     if "--keep-harness" in sys.argv[4:]:
-        target.write_text(s, encoding="utf-8", newline="
-")
+        target.write_text(s, encoding="utf-8", newline="\n")
         print(f"wrote {target} (with harness code)")
         return
     s = strip_standalone(s)
