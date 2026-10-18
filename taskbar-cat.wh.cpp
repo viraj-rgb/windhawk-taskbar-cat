@@ -1,9 +1,12 @@
 // ==WindhawkMod==
 // @id              taskbar-cat
 // @name            Taskbar Cat
-// @description     An orange pixel cat that lives on your taskbar.
+// @description     An orange pixel-art cat that lives on your Windows 11 taskbar: it wanders, naps, grooms, purrs when you hover, hunts butterflies, plays with yarn and reacts to you.
 // @version         1.0.2
 // @author          viraj-rgb
+// @github          https://github.com/viraj-rgb
+// @homepage        https://github.com/viraj-rgb/windhawk-taskbar-cat
+// @license         MIT
 // @include         explorer.exe
 // @compilerOptions -lgdi32 -lshell32 -lwtsapi32 -ladvapi32 -lcomctl32 -lole32 -luuid -lwinmm
 // ==/WindhawkMod==
@@ -11,6 +14,8 @@
 // ==WindhawkModReadme==
 /*
 # Taskbar Cat
+
+![Taskbar Cat](https://raw.githubusercontent.com/viraj-rgb/windhawk-taskbar-cat/8e9fd963225749cad2ba94e514f65df638d40910/art/preview.gif)
 
 An orange pixel-art cat that lives on the Windows 11 taskbar.
 
@@ -67,7 +72,7 @@ auto-hidden taskbar or a fullscreen app.
 - catName: Mango
   $name: Cat's name
   $description: Shown with its mood when you hover over the cat
-- birthday: "2026-10-17"
+- birthday: ""
   $name: Birthday (YYYY-MM-DD)
   $description: Day 1 of the cat's life. Leave empty to use the day the mod first ran.
 - catSize: auto
@@ -3148,7 +3153,7 @@ struct Settings {
 
 constexpr Settings kDefaultSettings = {
     .catName = L"Mango",
-    .birthday = cat::DaysFromCivil(2026, 10, 17),
+    .birthday = 0,
     .size = 0,
     .activityLevel = engine::ActivityLevel::Normal,
     .walkSpeedPercent = 100,
